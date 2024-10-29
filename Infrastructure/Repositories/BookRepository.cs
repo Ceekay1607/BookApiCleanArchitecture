@@ -58,11 +58,7 @@ public class BookRepository : IBookRepository
     public async Task UpdateBookPriceAsync(int id, double newPrice)
     {
         var book = await GetBookByIdAsync(id);
-        if (book == null)
-        {
-            throw new KeyNotFoundException($"Book with id {id} not found.");
-        }
-
+        
         if (newPrice < 0)
         {
             throw new ArgumentException("Price must be a positive number.");

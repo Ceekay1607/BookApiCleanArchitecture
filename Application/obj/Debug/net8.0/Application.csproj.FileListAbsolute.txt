@@ -1,0 +1,16 @@
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/bin/Debug/net8.0/Application.deps.json
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/bin/Debug/net8.0/Application.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/bin/Debug/net8.0/Application.pdb
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/bin/Debug/net8.0/Domain.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/bin/Debug/net8.0/Domain.pdb
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/Application.csproj.CopyComplete
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/Application.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/refint/Application.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/Application.pdb
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/ref/Application.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/Application/obj/Debug/net8.0/Application.sourcelink.json

@@ -20,7 +20,7 @@ public class UpdateBookPriceCommandHandler : IRequestHandler<UpdateBookPriceComm
         }
         catch
         {
-            return false; 
+            throw; 
         }
     }
 }

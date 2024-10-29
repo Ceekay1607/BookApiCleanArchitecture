@@ -22,6 +22,7 @@ public class GetAllBooksQueryHandler : IRequestHandler<GetAllBooksQuery, List<Bo
         {
             bookResponses.Add(new BookResponse
             {
+                Id = book.Id,
                 Title = book.Title,
                 Author = book.Author,
                 Price = book.Price

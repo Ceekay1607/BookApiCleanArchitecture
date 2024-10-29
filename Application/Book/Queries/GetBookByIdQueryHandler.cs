@@ -23,6 +23,7 @@ public class GetBookByIdQueryHandler : IRequestHandler<GetBookByIdQuery, BookRes
 
             return new BookResponse
             {
+                Id = book.Id,
                 Title = book.Title,
                 Author = book.Author,
                 Price = book.Price

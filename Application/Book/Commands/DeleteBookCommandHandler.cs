@@ -21,7 +21,7 @@ public class DeleteBookCommandHandler : IRequestHandler<DeleteBookCommand, bool>
         }
         catch
         {
-            return false;
+            throw;
         }
     }
 }
