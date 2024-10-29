@@ -84,3 +84,13 @@
 /home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
 /home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Serilog.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Serilog.AspNetCore.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Serilog.Extensions.Hosting.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Serilog.Settings.Configuration.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Serilog.Sinks.Console.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
+/home/nckhanh1/Desktop/Probation/Practice/BookApiCleanArchitecture28101540/WebApi/bin/Debug/net8.0/Serilog.Sinks.File.dll
