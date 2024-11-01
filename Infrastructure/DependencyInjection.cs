@@ -26,7 +26,8 @@ public static class DependencyInjection
         services.AddScoped<IBookRepository, BookRepository>();
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IUserService, UserService>();
-        services.AddScoped<ITokenService>(provider => new TokenService(configuration));
+        //services.AddScoped<ITokenService>(provider => new TokenService(configuration));
+        services.AddScoped<ITokenService, TokenService>();
 
         services.AddAuthentication(options =>
         {

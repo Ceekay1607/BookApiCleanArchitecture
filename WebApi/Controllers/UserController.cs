@@ -17,9 +17,10 @@ public class UserController : ControllerBase
 
     [HttpPost]
     [Authorize(Roles = "Admin")]
-    public async Task<IActionResult> AddUser([FromBody] RegisterRequest registerRequest) {
+    public async Task<IActionResult> AddUser([FromBody] RegisterRequest registerRequest, CancellationToken cancellationToken) {
+        Task.Delay(5000, cancellationToken);
         var command = new CreateUserCommand{Username = registerRequest.Username, Password = registerRequest.Password, Admin = registerRequest.Admin};
-        var userId = await _mediator.Send(command);
+        var userId = await _mediator.Send(command, cancellationToken);
         return NoContent();
     }
 }
