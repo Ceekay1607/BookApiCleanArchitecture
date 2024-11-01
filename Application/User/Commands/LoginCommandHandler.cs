@@ -1,26 +1,32 @@
 using Application.DTOs.Requests.User;
 using Application.DTOs.Responses.User;
 using Application.Interfaces;
+using Infrastructure.Interfaces;
 using MediatR;
 
 namespace Application.User.Commands;
 
 public class LoginCommandHandler : IRequestHandler<LoginCommand, LoginResponse>
 {
-    private readonly IAuthenticationService _authenticationService;
-    public LoginCommandHandler(IAuthenticationService authenticationService) {
-        _authenticationService = authenticationService;
+    private readonly IUserRepository _userRepository;
+    private readonly ITokenService _tokenService;
+    public LoginCommandHandler(IUserRepository userRepository, ITokenService tokenService) {
+        _userRepository = userRepository;
+        _tokenService = tokenService;
     }
 
     public async Task<LoginResponse> Handle(LoginCommand request, CancellationToken cancellationToken)
     {
         try
         {
-            var token = await _authenticationService.Login(new LoginRequest
+            Domain.Entities.User user = await _userRepository.GetUserAsync(new LoginRequest
             {
                 Username = request.Username,
                 Password = request.Password
             });
+
+
+            var token = _tokenService.GenerateToken(user);
 
             return new LoginResponse { Username = request.Username, Token = token };;
         }

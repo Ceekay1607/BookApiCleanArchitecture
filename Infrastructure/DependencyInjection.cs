@@ -22,11 +22,8 @@ public static class DependencyInjection
         services.AddDbContext<ApplicationDbContext>(options =>
             options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-        services.AddScoped<IAuthenticationService, AuthenticationService>();
         services.AddScoped<IBookRepository, BookRepository>();
         services.AddScoped<IUserRepository, UserRepository>();
-        services.AddScoped<IUserService, UserService>();
-        //services.AddScoped<ITokenService>(provider => new TokenService(configuration));
         services.AddScoped<ITokenService, TokenService>();
 
         services.AddAuthentication(options =>
